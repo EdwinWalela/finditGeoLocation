@@ -4,7 +4,7 @@ var PORT =process.env.PORT || 3000;
 const Loc = require('./models/location');
 const app = express();
 
-//a
+//ait
 mongoose.connect(process.env.DB_URI)
 .then(()=>console.log('connected to mongodb'));
 
